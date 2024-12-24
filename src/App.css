@@ -1,0 +1,107 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+    --primary-color: #3498db;
+    --background-color: rgb(10, 9, 9);
+    --text-color: #cccbcb;
+    --element-color:rgb(43, 43, 84);
+  }
+  
+ 
+  .themeColor{
+      background-color: var(--background-color) ;
+      color: var(--text-color);
+  }
+  .PostThemeColor{
+    background-color: rgb(12, 14, 14) ;
+  }
+  .formThemeColor{
+    background-color: rgb(162, 159, 159) ;
+    color: rgb(254, 254, 249);
+  }
+  .detailColortheme{
+    background-color: rgb(12, 12, 12);
+    color: rgb(155, 155, 162)
+  }
+
+/* .menu_bar{
+  display:none
+} */
+
+.Container,header{
+    font-family: "Rubik", serif;
+}
+.img{
+   
+    border-radius: 5px;
+    border-top: 3px solid rgb(23, 14, 14);
+    border-bottom: 3px solid rgb(28, 25, 25);
+    border-left: 8px double rgb(0, 0, 0);
+    border-right: 8px double rgb(0, 0, 0);
+    box-shadow: 0 2px 4px 4px rgb(129, 97, 110);
+
+}
+.headline{
+    text-shadow: 3px 5px black;
+}
+.red{
+    background-color: rgb(71, 191, 177);
+    color: rgb(13, 12, 10);
+    padding: 3px;
+    border-radius: 5px;
+   
+}
+
+.overlayBox{
+  background-color: rgba(255, 0, 0, 0.036);
+  z-index: 0;
+  transition: all 0.5s ease-in-out;
+}
+.overlayBox:hover{
+  z-index: 2;
+  background-color: rgba(21, 201, 141, 0.257);
+  transition: all 0.55s ease-in ;
+}
+
+
+h1 {
+  font-size: 30px;
+
+}
+h2 {
+  font-size: 27px;
+  
+}
+h3 {
+  font-size: 22px;
+  
+}
+
+
+
+h4 {
+  font-size: 18px;
+
+}
+h5 {
+  font-size: 16px;
+
+}
+h6 {
+  font-size: 14px;
+
+}
+
+::selection{
+  background-color: rgb(100, 97, 97);
+}
+
+.side_bar{
+  transition: all 3s ease-in;
+}
